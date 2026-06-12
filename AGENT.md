@@ -756,22 +756,22 @@ Tanggung Jawab:
   Membangun tampilan web lengkap, integrasi wallet, dan semua halaman utama.
 
 Task List:
-  [ ] Setup Next.js 14 + TailwindCSS + shadcn/ui
-  [ ] Setup wagmi config (Sepolia only, tolak chain lain)
-  [ ] Integrasi RainbowKit: ConnectButton + modal
-  [ ] Halaman /: Q&A Feed + filter by tag + search
-  [ ] Halaman /ask: form buat pertanyaan + tag input
-  [ ] Halaman /question/[id]: detail pertanyaan + jawaban
-  [ ] Komponen: QuestionCard, AnswerCard, PostEditor
-  [ ] Komponen: LikeButton (trigger on-chain via wagmi)
-  [ ] Komponen: TokenBalance.tsx (realtime CSIT balance)
-  [ ] Komponen: TransactionStatus.tsx (pending/confirmed/failed)
-  [ ] Halaman /leaderboard: ranking + filter mingguan/all-time
-  [ ] Halaman /profile/[address]: profil + history reward + posts
-  [ ] Halaman /admin: whitelist management (only admin wallet)
-  [ ] Onboarding flow: cara install MetaMask + get Sepolia ETH
-  [ ] Responsive: mobile, tablet, desktop
-  [ ] Dark mode support
+  [x] Setup Next.js 14 + TailwindCSS + shadcn/ui
+  [x] Setup wagmi config (Sepolia only, tolak chain lain)
+  [x] Integrasi RainbowKit: ConnectButton + modal
+  [x] Halaman /: Q&A Feed + filter by tag + search
+  [x] Halaman /ask: form buat pertanyaan + tag input
+  [x] Halaman /question/[id]: detail pertanyaan + jawaban
+  [x] Komponen: QuestionCard, AnswerCard, PostEditor
+  [x] Komponen: LikeButton (trigger on-chain via wagmi)
+  [x] Komponen: TokenBalance.tsx (realtime CSIT balance)
+  [x] Komponen: TransactionStatus.tsx (pending/confirmed/failed)
+  [x] Halaman /leaderboard: ranking + filter mingguan/all-time
+  [x] Halaman /profile/[address]: profil + history reward + posts
+  [x] Halaman /admin: whitelist management (only admin wallet)
+  [x] Onboarding flow: cara install MetaMask + get Sepolia ETH
+  [x] Responsive: mobile, tablet, desktop
+  [x] Dark mode support
 
 Deliverable:
   ✅ Semua halaman berjalan di localhost:3000
